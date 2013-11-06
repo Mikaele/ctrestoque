@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  codigo: 1
+  fabrica: MyString
+  quantidade: 1
+  descricao: MyString
+
+two:
+  codigo: 1
+  fabrica: MyString
+  quantidade: 1
+  descricao: MyString

@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  cliente_id_id: 
+  endereco_id_id: 
+
+two:
+  cliente_id_id: 
+  endereco_id_id: 

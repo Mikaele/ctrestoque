@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Item:</strong>
+  <%= @detalhe.item_id %>
+</p>
+
+<p>
+  <strong>Quantidade:</strong>
+  <%= @detalhe.quantidade %>
+</p>
+
+<%= link_to 'Edit', edit_detalhe_path(@detalhe) %> |
+<%= link_to 'Back', detalhes_path %>

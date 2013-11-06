@@ -1,0 +1,29 @@
+<h1>Listing detalhes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Quantidade</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @detalhes.each do |detalhe| %>
+      <tr>
+        <td><%= detalhe.item_id %></td>
+        <td><%= detalhe.quantidade %></td>
+        <td><%= link_to 'Show', detalhe %></td>
+        <td><%= link_to 'Edit', edit_detalhe_path(detalhe) %></td>
+        <td><%= link_to 'Destroy', detalhe, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Detalhe', new_detalhe_path %>
